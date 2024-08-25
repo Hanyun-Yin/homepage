@@ -73,11 +73,23 @@
         </div>
         <div class="nine columns main-description">
             <h1>Hanyun Yin(殷含蕴)</h1>
-            <p>Undergraduate Student <br/> The University of Science and Technology of China<br/>  </p>
+            <p>Undergraduate Student <br/>  Electronic Information Engineering, The University of Science and Technology <br/>  </p>
             <p><small> yhy1043772558@mail.ustc.edu.cn </small></p>
             <p><small> ykissgoodbye@gmail.com </small></p>
             <p>
-              <!--span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
+              <span onclick="window.open('https://twitter.com/Hanyun_Yin')" style="cursor: pointer">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </span>
+
+              <span onclick="window.open('https://www.linkedin.com/in/hanyun-yin/')" style="cursor: pointer">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </span>
+
+              <!--span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </span>
+
+              <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
                 <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
               </span>-->
             </p>
@@ -90,9 +102,13 @@
       <div class="container">
         <ul class="navbar-list">
           <li class="navbar-item"><a class="navbar-link" href=./index.html#bio>Biography</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=./index.html#news>News</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=./index.html#publications>Publications</a></li>
           <li class="navbar-item"><a class="navbar-link" href=./index.html#award>Selected Awards</a></li>
           <!--<li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>-->
+          <li class="navbar-item"><a class="navbar-link" href=./index.html#resume>Resume</a></li>
           <li class="navbar-item"><a class="navbar-link" href=./index.html#more>More About Me</a></li>
+          
         </ul>
       </div>
     </nav>
@@ -100,31 +116,82 @@
 <div class="docs-section" id="bio">
   <h4>Biography</h4>
   <p>
-    I am an undergraduate student, studying at the University of Science and Technology of China. 
+    I am an undergraduate student. I am studying under Professor <a href="http://staff.ustc.edu.cn/~fengfl/" target="_blank">Fuli Feng</a> in the Lab for Data Science(LDS) at the University of Science and Technology of China. During Summer 2023, I worked as an intern under the guidance of Professor <a href="https://sites.pitt.edu/~weigao/" target="_blank">Wei Gao</a> at the University of Pittsburgh.
   </p>
+
+  <p>
+    My current research interests mainly include <b>machine learning</b> and <b>natural language processing</b>. At the LDS lab, I also did some research about AI for medical science/healthcare. When I was an intern at the University of Pittsburgh, my research topic mainly included <b>LLM fine-tuning</b> and <b>generative models</b> such as diffusion models.
+  </p>
+
+  <p>
+  <b style="color:red;">I am highly interested in pursuing a PhD in machine learning and related topics. So I am seeking an experienced scholar as my PhD advisor. I have strong brainpower and I am always energetic about AI scientific studies. I believe I deserve your trust! Thanks for your time!</b>
+  </p> 
 </div>
+
+<div class="docs-section" id="news">
+  <h4>News</h4>
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#2023">2023</div></li>
+    <!-- <li><div class="button" data-ref="#all">All</div></li> -->
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="2023">
+      <div class="paper">
+        <p class="title"> &bull; <b> Sep, 2023 </b> &nbsp;&nbsp; a paper has been submitted to ICLR 2024</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+
+  <!--<p>Full publications on <a href="https://scholar.google.com/citations?user=LE3ctn0AAAAJ" target="_blank">Google Scholar</a>.<br/>-->
+  <!--<sup>‡</sup> indicates authors with equal contribution. <sup>&#x2606;</sup> indicates my students or interns.
+  </p>-->
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#2023_paper">Jan 2023 - Now</div></li>
+    <!--li><div class="button" data-ref="#selected_phd_paper">Selected during Ph.D.</div></li>-->
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="2023_paper">
+      <div class="paper">
+        <p class="title"><b>Towards Green AI in Fine-tuning Large Language Models via Adaptive Backpropagation.</b></p>
+        <p>Kai Huang, <b>Hanyun Yin</b>, Heng Huang, Wei Gao</p>paper link: <a href="https://arxiv.org/abs/2309.13192" target="_blank">https://arxiv.org/abs/2309.13192</a>
+        <!--p><i>ICCV'23: International Conference on Computer Vision</i></p>-
+         <div class="paper-buttons">
+            <a class="button" href="" target="_blank">Paper</a>              
+        </div>-->
 
 <div class="docs-section" id="award">
     <h4>Selected Awards</h4>
  
     <div class="tab-content">
         <div class="awards">
-            <p class="title">&bull;<b>First Prize Award. July 2021</b><br> -The Sixth Training Camp for the Growth Plan of University Students Entrepreneurs, Baidu</p>
-            <p class="title">&bull;<b>Outstanding Student Scholarship (Grade 3). Oct 2021</b> <br> -University of Science and Technology of China</p>
-            <p class="title">&bull;<b>Outstanding Student Scholarship (Grade 3). Oct 2022</b> <br> -University of Science and Technology of China</p>
-            <p class="title">&bull;<b>Outstanding Student Scholarship (Grade 3). Oct 2023</b> <br> -University of Science and Technology of China</p>
-            <p class="title">&bull;<b>Second Prize Award. Jan 2023</b> <br> -University Students Mathematics Competition</p>
-        </div>
-    </div>
-</div>
+            <p class="title">&bull;<b>First Prize Award. July 2021</b><br> -The Sixth Training Camp for the Growth Plan of University Students Entrepreneurs, sponsored by Baidu and USTC</p>
+            <p class="title">&bull;<b>Outstanding Student Scholarship (Grade 3). Oct 2021</b> <br> -University of Science and Technology
+            <p class="title">&bull;<b>Outstanding Student Scholarship (Grade 3). Oct 2022</b> <br> -University of Science and Technology
+            <p class="title">&bull;<b>Third Prize Award. Dec 2022</b> <br> -Robogame Robot Competition, University of Science and Technology
+            <p class="title">&bull;<b>Second Prize Award. Jan 2023</b> <br> -University Students Mathematics Competition
+
+<div class="docs-section" id="resume">
+  <h4>CV</h4>
+
+  <p>My full resume is <a href="https://drive.google.com/file/d/15wqWqF9-9r1ZyaRxmPYwADQBLJ8lEeob/view?usp=drive_link" target="_blank">here</a>.</p>
 
 <div class="docs-section" id="more">
   <h4>More About Me</h4>
   <p class="title"> &bull;I am an amateur Go player and I have achieved amateur five Dan of Go, which is the highest rank except provincial and national champions(amateur six Dan of Go).
-    <br>&bull;I am also an amateur Chinese Chess player. Chasing a higher grade of the Chinese Chess is always in progress. If you are interested in Go, I am willing to show you its charm! Welcome to communicate with me!
+    <br>&bull;I am also an amateur Chinese Chess player since 2022. Chasing a higher grade of the Chinese Chess is always in progress.
     <br>&bull;I also enjoy Pop music. My favourite stars are Joker Xue, JJ Lin and Jay Chou.
   </p>
 </div>
+
+This website was built based on the homepage of <a href="https://tianlong-chen.github.io/" target="_blank">Tianlong Chen</a>.
 
 <div class="footer">
     <div class="row">
@@ -132,7 +199,7 @@
         Hanyun Yin
       </div>
       <div class="four columns">
-        Last updated on March 2024
+        Last updated on Sep 2023
       </div>
     </div>
   </div>
